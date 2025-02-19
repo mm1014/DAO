@@ -17,7 +17,7 @@ const deployTimeLock = async function () {
         args: args,
         log: true,
     })
-    log(`Deployed governorContract successfully to address ${governor.address}`)
+    log(`Deployed governorContract to address ${governor.address}`)
 }
 
 module.exports = deployTimeLock
