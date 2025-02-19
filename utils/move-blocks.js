@@ -7,6 +7,6 @@ async function moveBlocks(amount) {
             params: [],
         })
     }
-    console.log(`Moved ${amount} blocks!!`)
+    console.log(`Moved ${amount} blocks`)
 }
 module.exports = { moveBlocks }
