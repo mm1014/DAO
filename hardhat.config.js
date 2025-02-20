@@ -21,7 +21,7 @@ module.exports = {
             allowUnlimitedContractSize: true,
         },
         sepolia: {
-            url: "https://sepolia.infura.io/v3/3760917edb5f479388e2d76eff84859f",
+            url: SEPOLIA_RPC_URL,
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             chainId: 11155111,
             allowUnlimitedContractSize: true, //最好加上，不然会报错
