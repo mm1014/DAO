@@ -10,5 +10,5 @@
         "@openzeppelin/contracts": "^4.9.3",
         "fs": "^0.0.1-security",
         "solidity-coverage": "^0.8.14"
-    }     
+    }
 }
