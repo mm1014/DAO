@@ -2,13 +2,14 @@
     "name": "dao-example",
     "devDependencies": {
         "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "@openzeppelin/contracts": "^4.9.3",
         "dotenv": "^16.4.7",
+        "fs": "^0.0.1-security",
         "hardhat": "^2.22.17",
         "hardhat-deploy": "^0.12.4",
         "prettier": "^3.4.2",
         "prettier-plugin-solidity": "^1.4.2",
-        "@openzeppelin/contracts": "^4.9.3",
-        "fs": "^0.0.1-security",
-        "solidity-coverage": "^0.8.14"
+        "solidity-coverage": "^0.8.14",
+        "hardhat-gas-reporter": "^1.0.10"
     }
 }
