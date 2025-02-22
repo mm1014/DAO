@@ -14,13 +14,25 @@ npm install
 ```
 
 ## Usage
-1. run a local node:
+1. Run a local blockchain:
 ```bash
 npx hardhat node
 ```
-2. run propose、vote and execute scripts in sequence
+2. Run scripts
+   
+- Propose a new value to be added to our Box contract
 ```bash
-npx hardhat run scripts/propose.js scripts/vote.js scripts/queue-and-execute.js --network localhost
+npx hardhat run scripts/propose.js --network localhost
+```  
+
+- Vote on that proposal
+```bash
+npx hardhat run scripts/vote.js --network localhost
+```  
+
+- Queue&Execute proposal
+```bash
+npx hardhat run scripts/queue-and-execute.js --network localhost
 ```  
 
 
